@@ -14,5 +14,9 @@
   "license": "MIT",
   "devDependencies": {
     "serve": "11.2.0"
+  },
+  "dependencies": {
+    "algoliasearch": "^5.18.0",
+    "instantsearch.js": "^4.75.6"
   }
 }

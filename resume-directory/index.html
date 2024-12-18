@@ -4,9 +4,27 @@
     <meta charset="UTF-8" />
     <title>Company Resume Directory</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/algoliasearch@4.24.0/dist/algoliasearch-lite.umd.js"
+      integrity="sha256-b2n6oSgG4C1stMT/yc/ChGszs9EY/Mhs6oltEjQbFCQ="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.75.6/dist/instantsearch.production.min.js"
+      integrity="sha256-DuvNCzkn3zdi0M6ISr57tX37YCcb7ezs9WK3lqUEe3Q="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@8.5.1/themes/reset-min.css"
+      integrity="sha256-KvFgFCzgqSErAPu6y9gz/AhZAvzK48VJASu3DpNLCEQ="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>Nunya Beeswax Resume Directory - Only the best talent.</h1>
+    <h1>Nunya Beeswax Resume Directory - Only the best talents.</h1>
+    <div id="searchbox"></div>
+    <script src="search.js"></script>
     <nav>
       <ul>
         <li><a href="software-engineers/index.html">Software Engineers</a></li>
